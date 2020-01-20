@@ -1,0 +1,9 @@
+多线程的两种实现方式：
+1.继承Thread类
+2.实现Runnable接口
+
+synchronized锁：对某个对象（对象、属性、方法）进行加锁。
+
+lock锁：如果不手动释放锁（unlock），它是不会自动释放锁的（包括异常）。
+    tryLock 尝试获取锁
+    lockInterruptibly 可中断锁，了解即可
