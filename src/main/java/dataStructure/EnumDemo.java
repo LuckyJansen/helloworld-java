@@ -1,4 +1,4 @@
-package javabase.classBase;
+package dataStructure;
 
 public class EnumDemo {
     public static void main(String[] args) {

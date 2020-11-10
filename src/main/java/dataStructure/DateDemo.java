@@ -1,4 +1,4 @@
-package javabase.classBase;
+package dataStructure;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

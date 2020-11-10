@@ -9,16 +9,17 @@ public class HashtableDemo {
 
         //它和HashMap类很相似，但是它支持同步。//线程安全的 //同步功能是什么样子的? 同步就是线程之间的交互
         Hashtable balance = new Hashtable();
+
+
+        balance.put("helo",3434.12);
+        balance.put("malo",2332.11);
+        balance.put("Ayan", 1378.00);
+        balance.put("Daisy", 99.22);
+        balance.put("Qadir", -19.08);
+
         Enumeration names ;
         String str;
         double bal;
-
-        balance.put("helo",new Double(3434.12));
-        balance.put("malo",new Double(2332.11));
-        balance.put("Ayan", new Double(1378.00));
-        balance.put("Daisy", new Double(99.22));
-        balance.put("Qadir", new Double(-19.08));
-
         //show all balance in hashtable
         names = balance.keys();
         while(names.hasMoreElements()){

@@ -1,4 +1,4 @@
-package javabase.classBase;
+package dataStructure;
 
 /**
  * Created by GAOJIANXIN637 on 2019-6-18.
